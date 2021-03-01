@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import SassComponent from "./SassComponent.js";
+import CssModule from "./CssModule.js";
 function App() {
   return (
     <div className="App">
-      <SassComponent />
+      <CssModule />
     </div>
   );
 }

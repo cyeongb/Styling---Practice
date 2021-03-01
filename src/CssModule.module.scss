@@ -1,0 +1,22 @@
+.wrapper{
+    background : lightgreen;
+    padding : 30px;
+    color:white;
+    font-size:25px;
+
+
+    &.inverted{
+    color:darkgray;
+    background:lightgreen;
+    border : 1px solid yellow;
+    }
+}
+/* global css */
+
+:global {
+    .something{
+    font-weight: bold;
+    color:rebeccapurple;
+    }
+}
+
